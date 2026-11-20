@@ -1,1 +1,1 @@
-# muni-store
+# michu-tutoring
