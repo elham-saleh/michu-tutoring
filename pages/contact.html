@@ -7,17 +7,62 @@
   <title>Contact</title>
 </head>
 <body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="home.html" target="_self">Home</a>
+      <a href="pages/tutors.html" target="_self">Tutors</a>
+      <a href="pages/contact.html" target="_self">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
   <main>
     <section>
-      <div>
-        <h1>Contact</h1>
-      </div>
-      <hr>
+      <h2>Request an Online Tutor</h2>
+      <form action="mailto:lalumi1o6e@gmail.com" method="post" enctype="text/plain">
+        <p>
+          <label for="full-name">Full Name (Required):</label><br>
+          <input type="text" id="full-name" name="full_name" required>
+        </p>
+        <p>
+          <label for="student-email">Email Address (Required):</label><br>
+          <input type="email" id="student-email" name="email" required>
+        </p>
+        <p>
+          <label for="role">I am registering as:</label><br>
+          <select id="role" name="role">
+            <option value="student_parent">Student or Parent</option>
+            <option value="tutor">Online Tutor</option>
+          </select>
+        </p>
+        <p>
+          <label for="notes">Subject and Preferred Schedule:</label><br>
+          <textarea id="notes" name="notes" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit Request</button>
+        </p>
+      </form>
 
-    <div>
-      <p>Visit our office here⬇️</p>
-    </div>
+      <div> 
+        <p>OR Visit our Office ⬇️</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d585.7974127010449!2d38.686265505002!3d8.99425900056429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1795213095154!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+      </div>
     </section>
   </main>
+  <footer>
+    <hr>
+    <label for="email">Email Us:</label>
+    <a href="mailto:lalumi1o6e@gmail.com">lalumi1o6e@gmail.com</a>
+    <br>
+    <label for="phone">Phone Number:</label>
+    <a href="tel:+251967336252">+251 96733 6252</a>
+    <br>
+    
+    <p>&copy; 2026 Michu Tutoring. All rights reserved.</p>
+  </footer>
 </body>
 </html>
